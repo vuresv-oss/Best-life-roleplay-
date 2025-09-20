@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+  <meta charset="UTF-8">
+  <title>Best Server Roleplay</title>
+  <style>
+    body {
+      background: #0d0d0d;
+      color: white;
+      font-family: Arial, sans-serif;
+      text-align: center;
+      margin: 0;
+      padding: 0;
+    }
+    header {
+      background: #111;
+      padding: 15px;
+      font-size: 22px;
+      color: #00f0ff;
+      font-weight: bold;
+    }
+    h1 {
+      color: #6a00ff;
+      margin-top: 20px;
+    }
+    p {
+      color: #ccc;
+      font-size: 16px;
+    }
+    button {
+      background: linear-gradient(45deg, #6a00ff, #00f0ff);
+      color: white;
+      border: none;
+      padding: 10px 20px;
+      margin: 10px;
+      border-radius: 8px;
+      cursor: pointer;
+      font-size: 15px;
+      transition: 0.3s;
+    }
+    button:hover {
+      transform: scale(1.05);
+    }
+    img.server-gif {
+      width: 200px;
+      height: 200px;
+      border-radius: 15px;
+      margin: 20px auto;
+      display: block;
+      animation: pulse 2s infinite;
+      transition: transform 0.3s, box-shadow 0.3s;
+    }
+    img.server-gif:hover {
+      transform: scale(1.1);
+      box-shadow: 0 0 20px #6a00ff, 0 0 30px #00f0ff;
+    }
+    @keyframes pulse {
+      0% { transform: scale(1); }
+      50% { transform: scale(1.05); }
+      100% { transform: scale(1); }
+    }
+    table {
+      width: 90%;
+      max-width: 1000px;
+      margin: 30px auto;
+      border-collapse: collapse;
+      background: rgba(255, 255, 255, 0.05);
+      border-radius: 10px;
+      overflow: hidden;
+    }
+    th {
+      background: #6a00ff;
+      padding: 15px;
+      font-size: 18px;
+      color: white;
+    }
+    td {
+      padding: 12px;
+      border-bottom: 1px solid #333;
+      text-align: left;
+      font-size: 14px;
+      line-height: 1.6;
+    }
+    tr:nth-child(even) {
+      background: rgba(255, 255, 255, 0.03);
+    }
+    .owners {
+      margin-top: 30px;
+      font-size: 16px;
+      color: #00f0ff;
+      font-weight: bold;
+    }
+    footer {
+      margin: 40px 0 20px;
+      font-size: 14px;
+      color: #888;
+    }
+  </style>
+</head>
+<body>
+  <header>Best Server Roleplay</header>
+  
+  <h1>✨ Welcome to the Best Server Roleplay ✨</h1>
+  <p>Join Discord bech ta3rf kol chy 3la server 👇</p>
+  <button onclick="window.open('https://discord.gg/3NEzPbJx')">انضم لديسكورد</button>
+  
+  <!-- زر TikTok -->
+  <p>Follow w hena loled 👇</p>
+  <button onclick="window.open('https://www.tiktok.com/@blrpvures?_t=ZM-8zt8YS6IpyK&_r=1')">تابعنا على TikTok</button>
+  
+  <!-- صورة السيرفر المتحركة مع تأثير Hover -->
+  <img class="server-gif" src="https://cdn.discordapp.com/icons/1338224005018157158/a_82b3d90e2a8759d8ed91bad218ef6b48.gif?size=4096" alt="Server GIF">
+
+  <table>
+    <tr>
+      <th>𝗦𝐞𝐫𝐯𝐞𝐫-𝗥𝐮𝐥𝐞𝐬</th>
+    </tr>
+    <tr><td>1・DM (Death Match): ma 3andekch el 7a9 to9tel player sans reason</td></tr>
+    <tr><td>2・RVDM (Random Vehicle DM): ma 3andekch el 7a9 testa3mel vehicle bech to9tel wala tadhreb player</td></tr>
+    <tr><td>3・0VOL (0 Value of Life): lezmek dima tkhaf 3la l character mte3ek w t9ader 7yetou kima IRL</td></tr>
+    <tr><td>4・Power Gaming: ma lezmekch tet9awa 3al character mte3ek (exp: titdhrab bil kartouch mtitwaj3ch...)</td></tr>
+    <tr><td>5・Meta Gaming: ma 3andekch el 7a9 testa3mel info makech makhedhha in game</td></tr>
+    <tr><td>6・Fail RP: ma 3andech el 7a9 ta3mel 7aja moch ma39oula wala tehlek l environement roleplay</td></tr>
+    <tr><td>7・Coherence RP: ma 3andekch el 7a9 ta3mel tasarroufet ma yetmachewech m3a characterek (expl: tfol sghir maynajmch yssou9)</td></tr>
+    <tr><td>8・Force RP: ma 3andekch el 7a9 tet9awa 3la player bech tekhou advantage fi scene</td></tr>
+    <tr><td>9・Fake Hostage: interdit 3lik Thezz sa7bek rahina</td></tr>
+    <tr><td>10・Revenge Kill (RK): ki takhser fight ma 3andekch el 7a9 tarja3 trevengi</td></tr>
+    <tr><td>11・Third Party: m3andekch el 7a9 tetda5el f scene mch teb3tk</td></tr>
+    <tr><td>12・Use Rule: ma 3andekch el 7a9 testa3mel rule bech tcouvri beha rou7ek</td></tr>
+    <tr><td>13・New Life Rule: ki tmout lezmik tansa ekher scene saretlek w titdhaker ba3d waqt</td></tr>
+    <tr><td>14・No Robbery Time: mamnou3 robbery fil waqt illi thabethou LSPD</td></tr>
+    <tr><td>15・Mass RP: ki el serveur farchi lezmek tetsaref ka annou m3abi</td></tr>
+    <tr><td>16・Pain RP: ki tetdhrab wala ta3mel accident lezmek tetwaja3 kima IRL</td></tr>
+    <tr><td>17・Toxic RP: mamnou3 tsib players wala trollhom</td></tr>
+  </table>
+
+  <div class="owners">
+    👑 Owners: Boyka / Skuza / Vivo / Zgoti
+  </div>
+
+  <footer>By VURES ⚡</footer>
+</body>
+</html>
