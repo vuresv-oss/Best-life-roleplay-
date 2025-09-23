@@ -1,97 +1,187 @@
-<!doctype html>
-
+<!DOCTYPE html>
 <html lang="ar" dir="rtl">
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width,initial-scale=1">
-  <title>BestLife RolePlay — القوانين</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gang Test - Best Life Roleplay</title>
   <style>
-    :root{--bg:#0b0f14;--card:#0f1720;--accent:#e33b3b;--muted:#9aa4b2}
-    body{margin:0;font-family:Tahoma,Arial,helvetica,sans-serif;background:linear-gradient(180deg,#060708, #0b0f14);color:#e6eef6}
-    .container{max-width:980px;margin:32px auto;padding:24px}
-    header{display:flex;gap:16px;align-items:center}
-    .logo{width:96px;height:96px;border-radius:12px;overflow:hidden;flex:0 0 96px}
-    .logo img{width:100%;height:100%;object-fit:cover}
-    h1{margin:0 0 6px 0;font-size:24px}
-    p.lead{margin:0;color:var(--muted)}
-    .card{background:linear-gradient(180deg, rgba(255,255,255,0.02), rgba(255,255,255,0.01));padding:18px;border-radius:12px;margin-top:18px;box-shadow:0 6px 18px rgba(0,0,0,0.6)}
-    .row{display:flex;flex-wrap:wrap;gap:14px}
-    .col{flex:1;min-width:220px}
-    .big{font-size:18px;color:#fff;margin-bottom:8px}
-    ul.rules{list-style:none;padding:0;margin:0}
-    ul.rules li{padding:10px;border-radius:8px;margin-bottom:8px;background:rgba(255,255,255,0.01);border:1px solid rgba(255,255,255,0.02)}
-    .muted{color:var(--muted);font-size:13px}
-    .actions{display:flex;gap:10px;flex-wrap:wrap;margin-top:12px}
-    .btn{display:inline-block;padding:10px 14px;border-radius:10px;text-decoration:none;font-weight:700}
-    .btn-join{background:linear-gradient(90deg,var(--accent),#ff7b5b);color:#fff}
-    .btn-discord{background:#5865F2;color:#fff}
-    .btn-tiktok{background:#000;color:#fff;border:1px solid #fff}
-    footer{text-align:center;color:var(--muted);margin-top:18px;font-size:13px}
-    @media(max-width:560px){header{flex-direction:row-reverse;align-items:center}.logo{width:72px;height:72px}}
+    body {
+      font-family: Tahoma, Arial, sans-serif;
+      background: #0f172a;
+      color: #f1f5f9;
+      margin: 0;
+      padding: 0;
+      text-align: center;
+    }
+    header {
+      padding: 20px;
+      background: rgba(0,0,0,0.6);
+    }
+    header img {
+      width: 100px;
+      border-radius: 50%;
+    }
+    h1 {
+      color: #38bdf8;
+    }
+    .gangs {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 20px;
+      margin: 20px;
+    }
+    .gang {
+      background: rgba(255,255,255,0.05);
+      padding: 20px;
+      border-radius: 12px;
+      width: 280px;
+      box-shadow: 0 6px 16px rgba(0,0,0,0.5);
+    }
+    .gang img {
+      width: 100%;
+      border-radius: 8px;
+    }
+    form {
+      margin-top: 15px;
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+    }
+    input, textarea, button {
+      padding: 10px;
+      border: none;
+      border-radius: 8px;
+      outline: none;
+      font-size: 14px;
+    }
+    input, textarea {
+      background: #1e293b;
+      color: #f1f5f9;
+    }
+    button {
+      background: linear-gradient(90deg, #38bdf8, #3b82f6);
+      font-weight: bold;
+      cursor: pointer;
+    }
+    button:hover {
+      background: linear-gradient(90deg, #3b82f6, #2563eb);
+    }
   </style>
 </head>
 <body>
-  <div class="container">
-    <header>
-      <div class="logo">
-        <!-- صورة السيرفر متحركة -->
-        <img src="https://cdn.discordapp.com/icons/1338224005018157158/a_82b3d90e2a8759d8ed91bad218ef6b48.gif?size=4096" alt="BestLife Logo">
-      </div>
-      <div>
-        <h1>BestLife RolePlay</h1>
-        <p class="lead">سيرفر RP عربي — تجربة لعب أدوار حقيقية، نظام متين، وفريق إداري نشط.</p>
-        <div class="actions">
-          <a class="btn btn-join" href="samp://bestlife.servegame.com:7009">اتصل الآن — bestlife.servegame.com:7009</a>
-          <a class="btn btn-discord" href="https://discord.gg/HPuFJ5uX" target="_blank" rel="noopener">انضم للـ Discord</a>
-          <a class="btn btn-tiktok" href="https://www.tiktok.com/@blrpvures?_t=ZM-8zuSXA7kcMW&_r=1" target="_blank" rel="noopener">تابعنا على TikTok</a>
-        </div>
-      </div>
-    </header><section class="card">
-  <div class="row">
-    <div class="col">
-      <div class="big">قوانين عامة</div>
-      <ul class="rules">
-        <li><strong>احترام الجميع:</strong> ممنوع الإساءة، العنصرية، والتهديدات.</li>
-        <li><strong>الـ Roleplay:</strong> التزام بالشخصية والسيناريوهات الواقعية داخل السيرفر.</li>
-        <li><strong>منع الـ Spam:</strong> أي تكرار رسائل، إعلانات عشوائية أو لربط حسابات ممنوع.</li>
-        <li><strong>الـ DM/VDM/PK:</strong> يوجد حالات مسموح بها وحالات ممنوعة — راجع القوانين التفصيلية أدناه.</li>
-        <li><strong>احترام قرارات الإدارة:</strong> التذمر العلني أو تحدي قرارات الأدمن يعرضك للعقوبات.</li>
-      </ul>
-      <p class="muted">هذه ملخص القوانين — العقوبات تتراوح بين تحذير، حجز، أو حظر دائم حسب المخالفة.</p>
+  <header>
+    <img src="https://cdn.discordapp.com/icons/1338224005018157158/a_82b3d90e2a8759d8ed91bad218ef6b48.gif?size=4096" alt="Best Life Logo">
+    <h1>⚡ Test Gangs - Best Life Roleplay ⚡</h1>
+    <p>اختر العصابة واملأ الفورم للإلتحاق</p>
+  </header>
+
+  <section class="gangs">
+
+    <!-- Ballas -->
+    <div class="gang">
+      <img src="https://i.ibb.co/3BVG5Cj/ballas.jpg" alt="Ballas">
+      <h2>Ballas 🟣</h2>
+      <form action="https://formspree.io/f/mvgwoaka" method="POST">
+        <input type="hidden" name="Gang" value="Ballas">
+        <input type="text" name="Name" placeholder="Name:" required>
+        <input type="number" name="Age" placeholder="Age:" required>
+        <input type="text" name="Level" placeholder="Level in game:" required>
+        <input type="text" name="Members" placeholder="Members:" required>
+        <input type="text" name="PrevGang" placeholder="Chdit gang 9bal:" required>
+        <textarea name="Rules" placeholder="7afed rules rp;" required></textarea>
+        <input type="text" name="Rvdm" placeholder="Rvdm:" required>
+        <input type="text" name="Tk" placeholder="Tk:" required>
+        <input type="text" name="Mk" placeholder="Mk:" required>
+        <input type="text" name="Pg" placeholder="Pg:" required>
+        <button type="submit">A5tar gang 🔥</button>
+      </form>
     </div>
 
-    <div class="col">
-      <div class="big">قوانين اللعب (تفصيل مختصر)</div>
-      <ul class="rules">
-        <li><strong>No-RP / Powergaming:</strong> اللعب بطريقة تكسر المعقولية ممنوع.</li>
-        <li><strong>FailRP:</strong> اتخاذ أفعال غير منطقية أو غير متناسقة يؤدي لعقوبات.</li>
-        <li><strong>Deathmatch (DM):</strong> القتل بدون سبب RP يؤدي لعقوبات فورية.</li>
-        <li><strong>Vehicle DM (VDM):</strong> استخدام السيارة لقتل لاعبين بدون سيناريو RP ممنوع.</li>
-        <li><strong>Exploits / Cheating:</strong> استخدام ثغرات أو برامج غش يؤدي للحظر الدائم.</li>
-      </ul>
+    <!-- Vagos -->
+    <div class="gang">
+      <img src="https://i.ibb.co/8BnbDx6/vagos.jpg" alt="Vagos">
+      <h2>Vagos 🟡</h2>
+      <form action="https://formspree.io/f/mvgwoaka" method="POST">
+        <input type="hidden" name="Gang" value="Vagos">
+        <input type="text" name="Name" placeholder="Name:" required>
+        <input type="number" name="Age" placeholder="Age:" required>
+        <input type="text" name="Level" placeholder="Level in game:" required>
+        <input type="text" name="Members" placeholder="Members:" required>
+        <input type="text" name="PrevGang" placeholder="Chdit gang 9bal:" required>
+        <textarea name="Rules" placeholder="7afed rules rp;" required></textarea>
+        <input type="text" name="Rvdm" placeholder="Rvdm:" required>
+        <input type="text" name="Tk" placeholder="Tk:" required>
+        <input type="text" name="Mk" placeholder="Mk:" required>
+        <input type="text" name="Pg" placeholder="Pg:" required>
+        <button type="submit">A5tar gang 🔥</button>
+      </form>
     </div>
-  </div>
-</section>
 
-<section class="card" style="margin-top:14px">
-  <div class="big">فريق الإدارة</div>
-  <p class="muted">مناصب الإدارة: Junior Admin — Admin — Senior — Head Admin. إذا احتجت مساعدة، تواصل عبر قناة الدعم في الـ Discord.</p>
-  <ul class="rules" style="margin-top:10px">
-    <li><strong>نصيحة للاعبين:</strong> احتفظ بسلوك مهذب عند التواصل مع الأدمن وقدم دليل واضح (صور/فيديو) عند تقديم شكوى.</li>
-  </ul>
-</section>
+    <!-- Grove -->
+    <div class="gang">
+      <img src="https://i.ibb.co/gjvV6L2/grove.jpg" alt="Grove">
+      <h2>Grove 🟢</h2>
+      <form action="https://formspree.io/f/mvgwoaka" method="POST">
+        <input type="hidden" name="Gang" value="Grove">
+        <input type="text" name="Name" placeholder="Name:" required>
+        <input type="number" name="Age" placeholder="Age:" required>
+        <input type="text" name="Level" placeholder="Level in game:" required>
+        <input type="text" name="Members" placeholder="Members:" required>
+        <input type="text" name="PrevGang" placeholder="Chdit gang 9bal:" required>
+        <textarea name="Rules" placeholder="7afed rules rp;" required></textarea>
+        <input type="text" name="Rvdm" placeholder="Rvdm:" required>
+        <input type="text" name="Tk" placeholder="Tk:" required>
+        <input type="text" name="Mk" placeholder="Mk:" required>
+        <input type="text" name="Pg" placeholder="Pg:" required>
+        <button type="submit">A5tar gang 🔥</button>
+      </form>
+    </div>
 
-<section class="card" style="margin-top:14px">
-  <div class="big">روابط سريعة</div>
-  <p class="muted">IP السيرفر: <strong>bestlife.servegame.com:7009</strong></p>
-  <p class="muted">دعوة Discord: <a href="https://discord.gg/HPuFJ5uX" target="_blank" rel="noopener">https://discord.gg/HPuFJ5uX</a></p>
-  <p class="muted">حساب TikTok: <a href="https://www.tiktok.com/@blrpvures?_t=ZM-8zuSXA7kcMW&_r=1" target="_blank" rel="noopener">@blrpvures</a></p>
-</section>
+    <!-- Rifa -->
+    <div class="gang">
+      <img src="https://i.ibb.co/30WQ9dj/rifa.jpg" alt="Rifa">
+      <h2>Rifa 🔵</h2>
+      <form action="https://formspree.io/f/mvgwoaka" method="POST">
+        <input type="hidden" name="Gang" value="Rifa">
+        <input type="text" name="Name" placeholder="Name:" required>
+        <input type="number" name="Age" placeholder="Age:" required>
+        <input type="text" name="Level" placeholder="Level in game:" required>
+        <input type="text" name="Members" placeholder="Members:" required>
+        <input type="text" name="PrevGang" placeholder="Chdit gang 9bal:" required>
+        <textarea name="Rules" placeholder="7afed rules rp;" required></textarea>
+        <input type="text" name="Rvdm" placeholder="Rvdm:" required>
+        <input type="text" name="Tk" placeholder="Tk:" required>
+        <input type="text" name="Mk" placeholder="Mk:" required>
+        <input type="text" name="Pg" placeholder="Pg:" required>
+        <button type="submit">A5tar gang 🔥</button>
+      </form>
+    </div>
 
-<footer>
-  صفحة مبنية بواسطة BestLife — حقوق الإدارة محفوظة ©
-</footer>
+    <!-- B13 -->
+    <div class="gang">
+      <img src="https://i.ibb.co/3dFkV7f/b13.jpg" alt="B13">
+      <h2>B13 🔴</h2>
+      <form action="https://formspree.io/f/mvgwoaka" method="POST">
+        <input type="hidden" name="Gang" value="B13">
+        <input type="text" name="Name" placeholder="Name:" required>
+        <input type="number" name="Age" placeholder="Age:" required>
+        <input type="text" name="Level" placeholder="Level in game:" required>
+        <input type="text" name="Members" placeholder="Members:" required>
+        <input type="text" name="PrevGang" placeholder="Chdit gang 9bal:" required>
+        <textarea name="Rules" placeholder="7afed rules rp;" required></textarea>
+        <input type="text" name="Rvdm" placeholder="Rvdm:" required>
+        <input type="text" name="Tk" placeholder="Tk:" required>
+        <input type="text" name="Mk" placeholder="Mk:" required>
+        <input type="text" name="Pg" placeholder="Pg:" required>
+        <button type="submit">A5tar gang 🔥</button>
+      </form>
+    </div>
 
-  </div>
+  </section>
+
+  <footer style="margin: 20px; color: #94a3b8;">
+    By Vures ⚡ | Best Life Roleplay 🥰
+  </footer>
 </body>
-</html>
+          </html>
